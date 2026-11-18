@@ -12,7 +12,7 @@ public class ClienteBeans {
 
     public ClienteBeans() throws Exception {
         // CAMBIA "TU_CLAVE" por la contraseña de tu MySQL
-        bd = new accesobd("localhost", "root", "TU_CLAVE", "tienda_facturacion");
+        bd = new accesobd("localhost", "root", "", "tienda_facturacion");
         bd.conectaBD();
     }
 
