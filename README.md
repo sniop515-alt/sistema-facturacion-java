@@ -29,8 +29,8 @@ Aplicación de escritorio en Java (Swing + JDBC) que registra facturas de una ti
 
 1. En phpMyAdmin, importar `schema.sql`. Crea la base `tienda_facturacion`, las tablas y datos de ejemplo.
 2. Abrir el proyecto en NetBeans. Todas las clases deben estar en el paquete `com.mycompany.sistemafacturacion`.
-3. Cambiar `TU_CLAVE` por la contraseña de MySQL en `ClienteBeans.java`, `FrmFactura.java` y `FrmVerFacturas.java`. En XAMPP normalmente la contraseña está vacía (`""`).
-4. Ejecutar la clase `Principal`.
+3. Ejecutar la clase `Principal`.
+4. Contaseña:`""`
 
 ## Archivos
 
