@@ -67,7 +67,7 @@ public class FrmFactura extends JFrame {
         add(sur, BorderLayout.SOUTH);
 
         try {
-            bd = new accesobd("localhost", "root", "TU_CLAVE", "tienda_facturacion");
+            bd = new accesobd("localhost", "root", "", "tienda_facturacion");
             bd.conectaBD();
             cargarCombos();
         } catch (Exception e) {
